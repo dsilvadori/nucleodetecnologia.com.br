@@ -10311,6 +10311,26 @@ footer .lead {
   padding: 20px 0;
 }
 
+.bloc-form {
+  margin-top: 100px;
+}
+
+.bloc-form .lead {
+  font-size: 1.5rem;
+}
+
+.btn-inscricao {
+  text-transform: uppercase;
+}
+
+.btn-inscricao:hover {
+  filter: brightness(1.3);
+}
+
+.btn-inscricao:focus {
+  box-shadow: none;
+}
+
 @media (max-width: 480px) {
   .page-section .lead {
     font-size: 1.4rem;
