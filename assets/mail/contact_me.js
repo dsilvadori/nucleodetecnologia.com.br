@@ -12,6 +12,7 @@ $(function () {
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
+            var partner = $("input#partner").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -27,6 +28,7 @@ $(function () {
                     name: name,
                     phone: phone,
                     email: email,
+                    partner: partner,
                     message: message,
                 },
                 cache: false,
@@ -39,7 +41,7 @@ $(function () {
                         )
                         .append("</button>");
                     $("#success > .alert-success").append(
-                        "<strong>Mensagem enviada! </strong>"
+                        "<strong>Mensagem enviada!</strong>"
                     );
                     $("#success > .alert-success").append("</div>");
                     //clear all fields
