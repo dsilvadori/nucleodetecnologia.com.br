@@ -10206,7 +10206,28 @@ h3 {
 .masthead {
   background-color: #FFF5E6!important;
 }
-
+@media (min-width: 1330px) {
+  .masthead {
+    background-image: url(/assets/img/capa-site.jpg);
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: calc(3rem + 104px)!important;
+    height: 510px;
+  }
+}
+@media (min-width: 1440px) {
+  .masthead {
+    height: 540px;
+  }
+}
+@media (min-width: 1660px) {
+  .masthead {
+    height: 604px!important;
+    padding-top: calc(6rem + 104px) !important;
+  }
+}
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(5rem + 104px);
