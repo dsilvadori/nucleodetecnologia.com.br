@@ -101,6 +101,7 @@ p {
   margin-bottom: 1rem;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 500;
+  word-break: break-word;
 }
 
 abbr[title],
