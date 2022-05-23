@@ -10402,6 +10402,10 @@ footer .lead {
   box-shadow: none;
 }
 
+#loja .row .col-md-4 {
+  margin-bottom: 60px;
+}
+
 
 @media (max-width: 480px) {
   .page-section .lead {
