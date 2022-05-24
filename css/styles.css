@@ -10406,6 +10406,22 @@ footer .lead {
   margin-bottom: 60px;
 }
 
+#loja a:hover {
+  color: #000;
+}
+
+#loja img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
+#loja .btn-outline-dark:hover,
+#loja a:hover ~ .btn-outline-dark  {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
 
 @media (max-width: 480px) {
   .page-section .lead {
