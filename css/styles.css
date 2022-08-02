@@ -10423,6 +10423,26 @@ footer .lead {
 }
 
 
+.projetos-alunos img {
+  max-width: 100%;
+  height: auto;
+}
+
+.projetos-alunos p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.lead.nomes {
+  font-size: 18px;
+  margin: 0;
+}
+
+.projetos-alunos .col-md-6, 
+.projetos-alunos .col-12 {
+  margin-bottom: 30px;
+}
+
 @media (max-width: 480px) {
   .page-section .lead {
     font-size: 1.4rem;
